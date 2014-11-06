@@ -10,4 +10,22 @@
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
     </properties>
+    <reporting>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-pmd-plugin</artifactId>
+                <!--
+                <configuration>
+                    <rulesets>
+                        <ruleset>/rulesets/braces.xml</ruleset>
+                        <ruleset>/rulesets/naming.xml</ruleset>
+                        <ruleset>d:\rulesets\strings.xml</ruleset>
+                        <ruleset>http://localhost/design.xml</ruleset>
+                    </rulesets>
+                </configuration>
+                -->
+            </plugin>
+        </plugins>
+    </reporting>
 </project>
