@@ -10,5 +10,5 @@ package com.itblame.jenkinsexample.pmdcustomrule;
  * @author dave
  */
 public class App {
-    
+    private String MyIP = "123.123.123.123";
 }
