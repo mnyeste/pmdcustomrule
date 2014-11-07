@@ -11,4 +11,5 @@ package com.itblame.jenkinsexample.pmdcustomrule;
  */
 public class App {
     private String MyIP = "123.123.123.123";
+    private String PASSWORD= "b*****99";
 }
